@@ -1,0 +1,41 @@
+living_room:
+  name: Living Room
+  view: yes
+  entities:
+    - media_player.living_room_tv
+    - media_player.apple_tv
+    - remote.apple_tv
+    - light.door
+    - light.sofa
+    - light.tv
+    - light.bookshelves
+    - light.nana_lamp
+    - light.table_lamp
+conservatory:
+  name: Conservatory
+  view: yes
+  entities:
+    - light.anglepoise
+    - light.wall_light
+kitchen:
+  name: Kitchen
+  view: yes
+  entities:
+    - switch.coffee_machine
+    - light.kitchen_table_1
+    - light.kitchen_table_2
+    - light.kitchen_table_3
+    - light.light_strip
+upstairs:
+  name: Upstairs
+  view: yes
+  entities:
+    - light.bedside
+    - light.landing
+    - light.landing_2
+porch:
+  name: Porch
+  view: yes
+  entities:
+    - light.porch
+

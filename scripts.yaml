@@ -1,0 +1,7 @@
+'1529237760588':
+  alias: Watching Tv Scene
+  sequence:
+  - data:
+      group_name: Living Room
+      scene_name: Watching Tv
+    service: hue.hue_activate_scene
