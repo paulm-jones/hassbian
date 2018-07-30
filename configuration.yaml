@@ -2,8 +2,8 @@ homeassistant:
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
-  latitude: 51.9475
-  longitude: 0.1355
+  latitude: !secret latitude
+  longitude: !secret longitude
   # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 97
   # metric for Metric, imperial for Imperial
@@ -99,6 +99,26 @@ sensor:
       - mode: train
         origin: SST
         destination: LST
+
+
+- platform: template
+  sensors:
+    next_train_status:
+      friendly_name: 'Next train status'
+      value_template: '{{states.sensor.next_train_to_lst.attributes.next_trains[0].status}}'
+    next_trains_origin:
+      friendly_name: 'Next train origin'
+      value_template: '{{states.sensor.next_train_to_lst.attributes.next_trains[0].origin_name}}'
+    next_trains_estimated:
+      friendly_name: 'Next train estimated'
+      value_template: '{{states.sensor.next_train_to_lst.attributes.next_trains[0].estimated}}'
+    next_trains_scheduled:
+      friendly_name: 'Next train scheduled'
+      value_template: '{{states.sensor.next_train_to_lst.attributes.next_trains[0].scheduled}}'
+    next_trains_platform:
+      friendly_name: 'Next train platform'
+      value_template: '{{states.sensor.next_train_to_lst.attributes.next_trains[0].platform}}'
+
 
 media_player:
   - platform: samsungtv
