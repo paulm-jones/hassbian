@@ -92,7 +92,6 @@ homekit:
       - light
 
 sensor:
-  - platform: yr
   - platform: uk_transport
     app_id: !secret transport_app_id
     app_key: !secret transport_app_key
