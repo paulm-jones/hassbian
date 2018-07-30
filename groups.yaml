@@ -38,4 +38,7 @@ porch:
   view: yes
   entities:
     - light.porch
-
+Next Train:
+  - sensor.next_train_status
+  - sensor.next_trains_estimated
+  - sensor.next_trains_scheduled

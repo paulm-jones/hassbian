@@ -1,0 +1,175 @@
+media_player.apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: cb2b0e6a7b0f5f19d66d58ec583413d2752355bc18e2ad1759f459d352c0eda7
+remote.apple_tv:
+  config_entry_id:
+  name:
+  platform: apple_tv
+  unique_id: cb2b0e6a7b0f5f19d66d58ec583413d2752355bc18e2ad1759f459d352c0eda7
+light.light_strip:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:9d:2d:1b-0b
+light.conservatory_wall:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:0b:57:ff:fe:89:d7:e4-01
+light.landing_stairs:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:61:d5:27-0b
+light.anglepoise:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:0b:57:ff:fe:97:c0:cc-01
+light.kitchen_table_3:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e4:78:30-0b
+light.table_lamp:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7d:25:94-0b
+light.landing:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e4:7b:ac-0b
+light.tv:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:e9:67:9a-0b
+light.sofa:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:dc:fe:9f-0b
+light.nana_lamp:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7d:32:83-0b
+light.bookshelves:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:e9:8d:61-0b
+light.kitchen_table_2:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e4:95:c7-0b
+light.door:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:f0:34:fc-0b
+light.bedside:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:7b:db:fd-0b
+light.porch:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:61:f2:3f-0b
+light.kitchen_table_1:
+  config_entry_id:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e4:7b:ad-0b
+light.wall_light:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65537
+light.towel_rail:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65539
+light.door_2:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65541
+light.anglepoise_2:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65538
+light.window:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65542
+light.bath:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: light-7e13295204400147-65540
+light.bathroom:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e13295204400147-184673
+light.conservatory_2:
+  config_entry_id:
+  name:
+  platform: tradfri
+  unique_id: group-7e13295204400147-187058
+switch.coffee_machine:
+  config_entry_id:
+  name:
+  platform: wemo
+  unique_id: 221238K110014B
+sensor.iphone_battery_state:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: state_Paul iPhone X
+sensor.iphone_battery_level:
+  config_entry_id:
+  name:
+  platform: ios
+  unique_id: level_Paul iPhone X
+light.kitchen_group_2__4:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:ae:22:f9-0b
+light.kitchen_group_2__5:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:ae:22:f8-0b
+light.kitchen_group_2__3:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:ae:1b:43-0b
+light.kitchen_group_2__1:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:f0:8c:82-0b
+light.kitchen_group_2__6:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:ae:23:2c-0b
+light.kitchen_group_2__2:
+  config_entry_id: 12906d1dd17e470c91ccd737e0c17b96
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:ae:1b:39-0b
