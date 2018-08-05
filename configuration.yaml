@@ -38,6 +38,10 @@ updater:
   # include_used_components: true
 
 # Discover some devices automatically
+
+### homekit controller
+### This component should not be confused with the HomeKit component,
+### which allows you to control Home Assistant devices via HomeKit.
 discovery:
   enable:
     - homekit
@@ -72,13 +76,13 @@ wemo:
 
 ios:
 
-device_tracker:
-  - platform: tile
-    username: !secret pj_email
-    password: !secret tile_pj_password
-  - platform: tile
-    username: !secret cj_email
-    password: !secret tile_cj_password
+# device_tracker:
+#   - platform: tile
+#     username: !secret pj_email
+#     password: !secret tile_pj_password
+#   - platform: tile
+#     username: !secret cj_email
+#     password: !secret tile_cj_password
 
 input_boolean:
   eve:
@@ -88,8 +92,8 @@ input_boolean:
 
 homekit:
   filter:
-    exclude_domains:
-      - light
+    include_domains:
+      - switch
 
 sensor: !include_dir_list sensors
 
@@ -99,3 +103,10 @@ media_player:
     port: 8001
     name: Living Room TV
 
+history_graph:
+  bedroom_temp_graph:
+    name: Bedroom Temp and Humidity
+    entities:
+      - sensor.motion_detector_temperature
+    hours_to_show: 24
+    refresh: 100
