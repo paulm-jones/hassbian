@@ -1,3 +1,19 @@
+living_room_lamps:
+  name: Living Room Lamps
+  view: no
+  entities:
+    - light.nana_lamp
+    - light.table_lamp
+
+living_room_ceiling:
+  name: Living Room Ceiling
+  view: no
+  entities:
+    - light.door
+    - light.sofa
+    - light.tv
+    - light.bookshelves
+
 living_room:
   name: Living Room
   view: yes
@@ -5,12 +21,9 @@ living_room:
     - media_player.living_room_tv
     - media_player.apple_tv
     - remote.apple_tv
-    - light.door
-    - light.sofa
-    - light.tv
-    - light.bookshelves
-    - light.nana_lamp
-    - light.table_lamp
+    - group.living_room_lamps
+    - group.living_room_ceiling
+
 conservatory:
   name: Conservatory
   view: yes

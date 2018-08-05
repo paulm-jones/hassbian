@@ -10,3 +10,16 @@
     data:
       group_name: Living Room
       scene_name: Watching Tv
+
+
+automation:
+  trigger:
+    platform: state
+    entity_id: input_boolean.eve
+    to: True
+    for:
+      minutes: 1
+  action:
+    service: notify.notify
+      data:
+        message: Door open
