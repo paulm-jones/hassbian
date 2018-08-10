@@ -5,4 +5,4 @@ queries:
   - mode: train
     origin: !secret transport_train_home
     destination: !secret transport_train_destination
-    interval: 107
+    # interval: 107

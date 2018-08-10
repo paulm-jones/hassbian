@@ -1,25 +1,12 @@
-- id: '1529234553010'
-  alias: Turn lights on when tv on
-  trigger:
-  - entity_id: media_player.living_room_tv
-    from: 'off'
-    platform: state
-    to: 'on'
-  action:
-    service: hue.hue_activate_scene
-    data:
-      group_name: Living Room
-      scene_name: Watching Tv
-
-
-automation:
-  trigger:
-    platform: state
-    entity_id: input_boolean.eve
-    to: True
-    for:
-      minutes: 1
-  action:
-    service: notify.notify
-      data:
-        message: Door open
+# - id: '1529234553010'
+#   alias: Turn lights on when tv on
+#   trigger:
+#   - entity_id: media_player.living_room_tv
+#     from: 'off'
+#     platform: state
+#     to: 'on'
+#   action:
+#     service: hue.hue_activate_scene
+#     data:
+#       group_name: Living Room
+#       scene_name: Watching Tv

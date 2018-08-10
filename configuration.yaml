@@ -76,13 +76,13 @@ wemo:
 
 ios:
 
-# device_tracker:
-#   - platform: tile
-#     username: !secret pj_email
-#     password: !secret tile_pj_password
-#   - platform: tile
-#     username: !secret cj_email
-#     password: !secret tile_cj_password
+device_tracker:
+  - platform: tile
+    username: !secret pj_email
+    password: !secret tile_pj_password
+  - platform: tile
+    username: !secret cj_email
+    password: !secret tile_cj_password
 
 input_boolean:
   eve:

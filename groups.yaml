@@ -30,6 +30,7 @@ conservatory:
   entities:
     - light.anglepoise
     - light.wall_light
+
 kitchen:
   name: Kitchen
   view: yes
@@ -39,6 +40,7 @@ kitchen:
     - light.kitchen_table_2
     - light.kitchen_table_3
     - light.light_strip
+
 upstairs:
   name: Upstairs
   view: yes
@@ -46,12 +48,20 @@ upstairs:
     - light.bedside
     - light.landing
     - light.landing_2
+
 porch:
   name: Porch
   view: yes
   entities:
     - light.porch
+
 Next Train:
   - sensor.next_train_status
   - sensor.next_trains_estimated
   - sensor.next_trains_scheduled
+
+
+Hue:
+  entities:
+    - sensor.kitchen_sensor
+    - sensor.landing_sensor
